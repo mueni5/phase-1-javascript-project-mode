@@ -1,0 +1,17 @@
+ # To-do list application.
+
+ #https://github.com/mueni5/phase-1-javascript-project-mode
+
+
+ # MVP(minimal viable product)
+
+A Page with a title and an input field to add new tasks.
+A list of tasks that are added by the user, displayed in order of creation.
+The ability to mark tasks as completed or uncompleted.
+The ability to delete a task from the list.
+Basic styling and layout to make the app visually appealing and easy to use.
+
+ # Design()
+
+ # link style sheet
+ 
