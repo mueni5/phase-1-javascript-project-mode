@@ -6,9 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ENIGMA TO-DO LIST</title>
   <link rel="stylesheet" type="text/css" href="./css/css.css" />
-  
+  <link rel="stylesheet" type="text/css" href="bootstrap.css" />
 </head>
 <body>
+  <div id="tasker" class="tasker">
+    <div id="error" class="error">Please enter a task</div>
+    <div id="tasker-header" class="tasker-header">
+      <input type="text" id="input-task" placeholder="Enter a task">
+      <button id="add-task-btn"><i class="fa fa-fw fa-plus"></i>
+      </button>
+    </div>
+    <div class="btn"><button type="button" class="btn btn-Add">Add</button></div>
+    <div class="tasker-body">
+      <ul id="tasks"></ul>
+    </div>
+  </div>
   
 </body>
 </html>
