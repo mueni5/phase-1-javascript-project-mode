@@ -24,7 +24,6 @@ fetch('db.json', {
 .then(data => console.log(data.tasks));
 
 
-
 const form = document.querySelector('form');
 const input = document.querySelector('#new-item');
 const list = document.querySelector('#todo-list');
@@ -44,7 +43,7 @@ form.addEventListener('submit', e => {
 function addTodoistItem(text) {
 const api = new TodoistApi("0123456789abcdef0123456789")
 const token = '';
-  const project_id = 'tasker'; // optional, set to null if you want to add to Inbox
+  const project_id = "todo-list"; // optional, set to null if you want to add to Inbox
   const task = {
     content: text,
     project_id: project_id
