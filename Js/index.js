@@ -23,6 +23,7 @@ fetch('db.json', {
 .then(response => response.json())
 .then(data => console.log(data.tasks));
 
+// Write a new task to the database files
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
