@@ -14,6 +14,16 @@
       "id": 3,
       "title": "Do laundry",
       "completed": false
+    },
+    {
+      "'title'": "Go to the gym",
+      "completed'": false,
+      "id": 4
+    },
+    {
+      "'title'": "Go to the mosque",
+      "completed'": true,
+      "id": 5
     }
   ]
 }
